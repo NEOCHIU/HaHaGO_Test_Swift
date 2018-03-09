@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4234D29020523E78007932A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4234D28F20523E78007932A3 /* AppDelegate.swift */; };
+		4234D29220523E78007932A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4234D29120523E78007932A3 /* ViewController.swift */; };
+		4234D29520523E78007932A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4234D29320523E78007932A3 /* Main.storyboard */; };
+		4234D29720523E79007932A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4234D29620523E79007932A3 /* Assets.xcassets */; };
+		4234D29A20523E79007932A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4234D29820523E79007932A3 /* LaunchScreen.storyboard */; };
+		4234D2A520523E7A007932A3 /* HaHaGO_Test_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4234D2A420523E7A007932A3 /* HaHaGO_Test_SwiftTests.swift */; };
+		4234D2B020523E7A007932A3 /* HaHaGO_Test_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4234D2AF20523E7A007932A3 /* HaHaGO_Test_SwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4234D2A120523E7A007932A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4234D28420523E78007932A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4234D28B20523E78007932A3;
+			remoteInfo = HaHaGO_Test_Swift;
+		};
+		4234D2AC20523E7A007932A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4234D28420523E78007932A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4234D28B20523E78007932A3;
+			remoteInfo = HaHaGO_Test_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4234D28C20523E78007932A3 /* HaHaGO_Test_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaHaGO_Test_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4234D28F20523E78007932A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4234D29120523E78007932A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4234D29420523E78007932A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4234D29620523E79007932A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4234D29920523E79007932A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4234D29B20523E79007932A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4234D2A020523E7A007932A3 /* HaHaGO_Test_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaHaGO_Test_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4234D2A420523E7A007932A3 /* HaHaGO_Test_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaHaGO_Test_SwiftTests.swift; sourceTree = "<group>"; };
+		4234D2A620523E7A007932A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4234D2AB20523E7A007932A3 /* HaHaGO_Test_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaHaGO_Test_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4234D2AF20523E7A007932A3 /* HaHaGO_Test_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaHaGO_Test_SwiftUITests.swift; sourceTree = "<group>"; };
+		4234D2B120523E7A007932A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4234D28920523E78007932A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4234D29D20523E7A007932A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4234D2A820523E7A007932A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4234D28320523E78007932A3 = {
+			isa = PBXGroup;
+			children = (
+				4234D28E20523E78007932A3 /* HaHaGO_Test_Swift */,
+				4234D2A320523E7A007932A3 /* HaHaGO_Test_SwiftTests */,
+				4234D2AE20523E7A007932A3 /* HaHaGO_Test_SwiftUITests */,
+				4234D28D20523E78007932A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4234D28D20523E78007932A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4234D28C20523E78007932A3 /* HaHaGO_Test_Swift.app */,
+				4234D2A020523E7A007932A3 /* HaHaGO_Test_SwiftTests.xctest */,
+				4234D2AB20523E7A007932A3 /* HaHaGO_Test_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4234D28E20523E78007932A3 /* HaHaGO_Test_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				4234D28F20523E78007932A3 /* AppDelegate.swift */,
+				4234D29120523E78007932A3 /* ViewController.swift */,
+				4234D29320523E78007932A3 /* Main.storyboard */,
+				4234D29620523E79007932A3 /* Assets.xcassets */,
+				4234D29820523E79007932A3 /* LaunchScreen.storyboard */,
+				4234D29B20523E79007932A3 /* Info.plist */,
+			);
+			path = HaHaGO_Test_Swift;
+			sourceTree = "<group>";
+		};
+		4234D2A320523E7A007932A3 /* HaHaGO_Test_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				4234D2A420523E7A007932A3 /* HaHaGO_Test_SwiftTests.swift */,
+				4234D2A620523E7A007932A3 /* Info.plist */,
+			);
+			path = HaHaGO_Test_SwiftTests;
+			sourceTree = "<group>";
+		};
+		4234D2AE20523E7A007932A3 /* HaHaGO_Test_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4234D2AF20523E7A007932A3 /* HaHaGO_Test_SwiftUITests.swift */,
+				4234D2B120523E7A007932A3 /* Info.plist */,
+			);
+			path = HaHaGO_Test_SwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4234D28B20523E78007932A3 /* HaHaGO_Test_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4234D2B420523E7A007932A3 /* Build configuration list for PBXNativeTarget "HaHaGO_Test_Swift" */;
+			buildPhases = (
+				4234D28820523E78007932A3 /* Sources */,
+				4234D28920523E78007932A3 /* Frameworks */,
+				4234D28A20523E78007932A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaHaGO_Test_Swift;
+			productName = HaHaGO_Test_Swift;
+			productReference = 4234D28C20523E78007932A3 /* HaHaGO_Test_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4234D29F20523E7A007932A3 /* HaHaGO_Test_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4234D2B720523E7A007932A3 /* Build configuration list for PBXNativeTarget "HaHaGO_Test_SwiftTests" */;
+			buildPhases = (
+				4234D29C20523E7A007932A3 /* Sources */,
+				4234D29D20523E7A007932A3 /* Frameworks */,
+				4234D29E20523E7A007932A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4234D2A220523E7A007932A3 /* PBXTargetDependency */,
+			);
+			name = HaHaGO_Test_SwiftTests;
+			productName = HaHaGO_Test_SwiftTests;
+			productReference = 4234D2A020523E7A007932A3 /* HaHaGO_Test_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4234D2AA20523E7A007932A3 /* HaHaGO_Test_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4234D2BA20523E7A007932A3 /* Build configuration list for PBXNativeTarget "HaHaGO_Test_SwiftUITests" */;
+			buildPhases = (
+				4234D2A720523E7A007932A3 /* Sources */,
+				4234D2A820523E7A007932A3 /* Frameworks */,
+				4234D2A920523E7A007932A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4234D2AD20523E7A007932A3 /* PBXTargetDependency */,
+			);
+			name = HaHaGO_Test_SwiftUITests;
+			productName = HaHaGO_Test_SwiftUITests;
+			productReference = 4234D2AB20523E7A007932A3 /* HaHaGO_Test_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4234D28420523E78007932A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ISCOM;
+				TargetAttributes = {
+					4234D28B20523E78007932A3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4234D29F20523E7A007932A3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4234D28B20523E78007932A3;
+					};
+					4234D2AA20523E7A007932A3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4234D28B20523E78007932A3;
+					};
+				};
+			};
+			buildConfigurationList = 4234D28720523E78007932A3 /* Build configuration list for PBXProject "HaHaGO_Test_Swift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4234D28320523E78007932A3;
+			productRefGroup = 4234D28D20523E78007932A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4234D28B20523E78007932A3 /* HaHaGO_Test_Swift */,
+				4234D29F20523E7A007932A3 /* HaHaGO_Test_SwiftTests */,
+				4234D2AA20523E7A007932A3 /* HaHaGO_Test_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4234D28A20523E78007932A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4234D29A20523E79007932A3 /* LaunchScreen.storyboard in Resources */,
+				4234D29720523E79007932A3 /* Assets.xcassets in Resources */,
+				4234D29520523E78007932A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4234D29E20523E7A007932A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4234D2A920523E7A007932A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4234D28820523E78007932A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4234D29220523E78007932A3 /* ViewController.swift in Sources */,
+				4234D29020523E78007932A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4234D29C20523E7A007932A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4234D2A520523E7A007932A3 /* HaHaGO_Test_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4234D2A720523E7A007932A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4234D2B020523E7A007932A3 /* HaHaGO_Test_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4234D2A220523E7A007932A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4234D28B20523E78007932A3 /* HaHaGO_Test_Swift */;
+			targetProxy = 4234D2A120523E7A007932A3 /* PBXContainerItemProxy */;
+		};
+		4234D2AD20523E7A007932A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4234D28B20523E78007932A3 /* HaHaGO_Test_Swift */;
+			targetProxy = 4234D2AC20523E7A007932A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4234D29320523E78007932A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4234D29420523E78007932A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4234D29820523E79007932A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4234D29920523E79007932A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4234D2B220523E7A007932A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4234D2B320523E7A007932A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4234D2B520523E7A007932A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2ZY7Y3JLJ;
+				INFOPLIST_FILE = HaHaGO_Test_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.com.iscom.HaHaGO-Test-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4234D2B620523E7A007932A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2ZY7Y3JLJ;
+				INFOPLIST_FILE = HaHaGO_Test_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.com.iscom.HaHaGO-Test-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4234D2B820523E7A007932A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2ZY7Y3JLJ;
+				INFOPLIST_FILE = HaHaGO_Test_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.com.iscom.HaHaGO-Test-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaHaGO_Test_Swift.app/HaHaGO_Test_Swift";
+			};
+			name = Debug;
+		};
+		4234D2B920523E7A007932A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2ZY7Y3JLJ;
+				INFOPLIST_FILE = HaHaGO_Test_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.com.iscom.HaHaGO-Test-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaHaGO_Test_Swift.app/HaHaGO_Test_Swift";
+			};
+			name = Release;
+		};
+		4234D2BB20523E7A007932A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2ZY7Y3JLJ;
+				INFOPLIST_FILE = HaHaGO_Test_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.com.iscom.HaHaGO-Test-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HaHaGO_Test_Swift;
+			};
+			name = Debug;
+		};
+		4234D2BC20523E7A007932A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2ZY7Y3JLJ;
+				INFOPLIST_FILE = HaHaGO_Test_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.com.iscom.HaHaGO-Test-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HaHaGO_Test_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4234D28720523E78007932A3 /* Build configuration list for PBXProject "HaHaGO_Test_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4234D2B220523E7A007932A3 /* Debug */,
+				4234D2B320523E7A007932A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4234D2B420523E7A007932A3 /* Build configuration list for PBXNativeTarget "HaHaGO_Test_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4234D2B520523E7A007932A3 /* Debug */,
+				4234D2B620523E7A007932A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4234D2B720523E7A007932A3 /* Build configuration list for PBXNativeTarget "HaHaGO_Test_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4234D2B820523E7A007932A3 /* Debug */,
+				4234D2B920523E7A007932A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4234D2BA20523E7A007932A3 /* Build configuration list for PBXNativeTarget "HaHaGO_Test_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4234D2BB20523E7A007932A3 /* Debug */,
+				4234D2BC20523E7A007932A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4234D28420523E78007932A3 /* Project object */;
+}
