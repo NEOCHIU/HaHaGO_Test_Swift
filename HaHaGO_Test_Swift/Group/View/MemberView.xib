@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MemberView" customModule="HaHaGO_Test_Swift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="7U6-lV-NS2">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="QhK-S0-Aqc">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pe2-0n-o2S">
+                    <rect key="frame" x="10" y="6" width="50" height="50"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="addIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ov2-Te-zN4">
+                            <rect key="frame" x="1" y="2" width="50" height="50"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Ov2-Te-zN4" firstAttribute="top" secondItem="pe2-0n-o2S" secondAttribute="top" constant="2" id="2Fl-DH-ebu"/>
+                        <constraint firstItem="Ov2-Te-zN4" firstAttribute="leading" secondItem="pe2-0n-o2S" secondAttribute="leading" constant="1" id="7IT-d7-wSr"/>
+                        <constraint firstAttribute="width" constant="50" id="7Rp-um-jcp"/>
+                        <constraint firstAttribute="height" constant="50" id="A04-hZ-2EJ"/>
+                        <constraint firstAttribute="bottom" secondItem="Ov2-Te-zN4" secondAttribute="bottom" constant="-2" id="sYl-n6-Rer"/>
+                        <constraint firstAttribute="trailing" secondItem="Ov2-Te-zN4" secondAttribute="trailing" constant="-1" id="yM5-kD-Q2B"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="pe2-0n-o2S" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="6" id="N0g-MB-uc2"/>
+                <constraint firstItem="pe2-0n-o2S" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="pdY-A8-H5Z"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="avatarView" destination="pe2-0n-o2S" id="A2p-CQ-HqU"/>
+                <outlet property="collectionView" destination="7U6-lV-NS2" id="FIV-CK-34F"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="68.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="addIcon.png" width="225" height="225"/>
+    </resources>
+</document>

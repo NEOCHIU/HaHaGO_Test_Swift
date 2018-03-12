@@ -14,6 +14,20 @@
 		4234D29A20523E79007932A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4234D29820523E79007932A3 /* LaunchScreen.storyboard */; };
 		4234D2A520523E7A007932A3 /* HaHaGO_Test_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4234D2A420523E7A007932A3 /* HaHaGO_Test_SwiftTests.swift */; };
 		4234D2B020523E7A007932A3 /* HaHaGO_Test_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4234D2AF20523E7A007932A3 /* HaHaGO_Test_SwiftUITests.swift */; };
+		4234D2C120523FF3007932A3 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4234D2BF20523FF3007932A3 /* GroupViewController.swift */; };
+		4234D2C220523FF3007932A3 /* GroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4234D2C020523FF3007932A3 /* GroupViewController.xib */; };
+		4234D2C520525CDA007932A3 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4234D2C320525CDA007932A3 /* GroupTableViewCell.swift */; };
+		4234D2C620525CDA007932A3 /* GroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4234D2C420525CDA007932A3 /* GroupTableViewCell.xib */; };
+		4234D2C8205261E3007932A3 /* GroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4234D2C7205261E3007932A3 /* GroupViewModel.swift */; };
+		4234D2CA2052620A007932A3 /* GroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4234D2C92052620A007932A3 /* GroupModel.swift */; };
+		4234D34D20527602007932A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4234D34C20527601007932A3 /* GoogleService-Info.plist */; };
+		4234D3F520529516007932A3 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4234D3F420529514007932A3 /* ImageIO.framework */; };
+		4234D4552052FD78007932A3 /* MemberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4234D4542052FD78007932A3 /* MemberView.swift */; };
+		4234D4572052FD8E007932A3 /* MemberView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4234D4562052FD8D007932A3 /* MemberView.xib */; };
+		4234D45A2052FE89007932A3 /* addIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4234D4592052FE89007932A3 /* addIcon.png */; };
+		4234D45D20530156007932A3 /* MemberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4234D45B20530156007932A3 /* MemberCell.swift */; };
+		4234D45E20530156007932A3 /* MemberCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4234D45C20530156007932A3 /* MemberCell.xib */; };
+		C89E8108EE4673B154F33A2B /* Pods_HaHaGO_Test_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE025C8029B6EB3FF45CDD2 /* Pods_HaHaGO_Test_Swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15FA7603EE4D81087312A4A2 /* Pods-HaHaGO_Test_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaHaGO_Test_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaHaGO_Test_Swift/Pods-HaHaGO_Test_Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		4234D28C20523E78007932A3 /* HaHaGO_Test_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaHaGO_Test_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4234D28F20523E78007932A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4234D29120523E78007932A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,21 @@
 		4234D2AB20523E7A007932A3 /* HaHaGO_Test_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaHaGO_Test_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4234D2AF20523E7A007932A3 /* HaHaGO_Test_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaHaGO_Test_SwiftUITests.swift; sourceTree = "<group>"; };
 		4234D2B120523E7A007932A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4234D2BF20523FF3007932A3 /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		4234D2C020523FF3007932A3 /* GroupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupViewController.xib; sourceTree = "<group>"; };
+		4234D2C320525CDA007932A3 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		4234D2C420525CDA007932A3 /* GroupTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupTableViewCell.xib; sourceTree = "<group>"; };
+		4234D2C7205261E3007932A3 /* GroupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewModel.swift; sourceTree = "<group>"; };
+		4234D2C92052620A007932A3 /* GroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupModel.swift; sourceTree = "<group>"; };
+		4234D34C20527601007932A3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4234D3F420529514007932A3 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		4234D4542052FD78007932A3 /* MemberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberView.swift; sourceTree = "<group>"; };
+		4234D4562052FD8D007932A3 /* MemberView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemberView.xib; sourceTree = "<group>"; };
+		4234D4592052FE89007932A3 /* addIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addIcon.png; sourceTree = "<group>"; };
+		4234D45B20530156007932A3 /* MemberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberCell.swift; sourceTree = "<group>"; };
+		4234D45C20530156007932A3 /* MemberCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemberCell.xib; sourceTree = "<group>"; };
+		7EE025C8029B6EB3FF45CDD2 /* Pods_HaHaGO_Test_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaHaGO_Test_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB469CB95BF21AC3645CFF4C /* Pods-HaHaGO_Test_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaHaGO_Test_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-HaHaGO_Test_Swift/Pods-HaHaGO_Test_Swift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4234D3F520529516007932A3 /* ImageIO.framework in Frameworks */,
+				C89E8108EE4673B154F33A2B /* Pods_HaHaGO_Test_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +113,8 @@
 				4234D2A320523E7A007932A3 /* HaHaGO_Test_SwiftTests */,
 				4234D2AE20523E7A007932A3 /* HaHaGO_Test_SwiftUITests */,
 				4234D28D20523E78007932A3 /* Products */,
+				4234D3F320529513007932A3 /* Frameworks */,
+				8EE7CA02E7232FF194976D2B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +131,12 @@
 		4234D28E20523E78007932A3 /* HaHaGO_Test_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				4234D4582052FE72007932A3 /* Resouce */,
+				4234D2BE20523FC3007932A3 /* Other */,
+				4234D2BD20523FA5007932A3 /* Group */,
 				4234D28F20523E78007932A3 /* AppDelegate.swift */,
-				4234D29120523E78007932A3 /* ViewController.swift */,
-				4234D29320523E78007932A3 /* Main.storyboard */,
-				4234D29620523E79007932A3 /* Assets.xcassets */,
-				4234D29820523E79007932A3 /* LaunchScreen.storyboard */,
 				4234D29B20523E79007932A3 /* Info.plist */,
+				4234D34C20527601007932A3 /* GoogleService-Info.plist */,
 			);
 			path = HaHaGO_Test_Swift;
 			sourceTree = "<group>";
@@ -125,6 +159,85 @@
 			path = HaHaGO_Test_SwiftUITests;
 			sourceTree = "<group>";
 		};
+		4234D2BD20523FA5007932A3 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				4234D46120541413007932A3 /* View */,
+				4234D46020541408007932A3 /* Model */,
+				4234D45F205413CF007932A3 /* ViewModel */,
+				4234D2BF20523FF3007932A3 /* GroupViewController.swift */,
+				4234D2C020523FF3007932A3 /* GroupViewController.xib */,
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+		4234D2BE20523FC3007932A3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4234D29120523E78007932A3 /* ViewController.swift */,
+				4234D29320523E78007932A3 /* Main.storyboard */,
+				4234D29620523E79007932A3 /* Assets.xcassets */,
+				4234D29820523E79007932A3 /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		4234D3F320529513007932A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4234D3F420529514007932A3 /* ImageIO.framework */,
+				7EE025C8029B6EB3FF45CDD2 /* Pods_HaHaGO_Test_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4234D4582052FE72007932A3 /* Resouce */ = {
+			isa = PBXGroup;
+			children = (
+				4234D4592052FE89007932A3 /* addIcon.png */,
+			);
+			name = Resouce;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		4234D45F205413CF007932A3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4234D2C7205261E3007932A3 /* GroupViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4234D46020541408007932A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4234D2C92052620A007932A3 /* GroupModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4234D46120541413007932A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4234D2C320525CDA007932A3 /* GroupTableViewCell.swift */,
+				4234D2C420525CDA007932A3 /* GroupTableViewCell.xib */,
+				4234D4542052FD78007932A3 /* MemberView.swift */,
+				4234D4562052FD8D007932A3 /* MemberView.xib */,
+				4234D45B20530156007932A3 /* MemberCell.swift */,
+				4234D45C20530156007932A3 /* MemberCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8EE7CA02E7232FF194976D2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15FA7603EE4D81087312A4A2 /* Pods-HaHaGO_Test_Swift.debug.xcconfig */,
+				EB469CB95BF21AC3645CFF4C /* Pods-HaHaGO_Test_Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4234D2B420523E7A007932A3 /* Build configuration list for PBXNativeTarget "HaHaGO_Test_Swift" */;
 			buildPhases = (
+				1CE3D104A855F8FAE25390BC /* [CP] Check Pods Manifest.lock */,
 				4234D28820523E78007932A3 /* Sources */,
 				4234D28920523E78007932A3 /* Frameworks */,
 				4234D28A20523E78007932A3 /* Resources */,
+				88EDC1F40AD61E1081B1CB32 /* [CP] Embed Pods Frameworks */,
+				8AE84DDCC0C6E5E3CAADF830 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,8 +348,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4234D45A2052FE89007932A3 /* addIcon.png in Resources */,
+				4234D2C220523FF3007932A3 /* GroupViewController.xib in Resources */,
+				4234D45E20530156007932A3 /* MemberCell.xib in Resources */,
+				4234D2C620525CDA007932A3 /* GroupTableViewCell.xib in Resources */,
 				4234D29A20523E79007932A3 /* LaunchScreen.storyboard in Resources */,
 				4234D29720523E79007932A3 /* Assets.xcassets in Resources */,
+				4234D34D20527602007932A3 /* GoogleService-Info.plist in Resources */,
+				4234D4572052FD8E007932A3 /* MemberView.xib in Resources */,
 				4234D29520523E78007932A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +376,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CE3D104A855F8FAE25390BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88EDC1F40AD61E1081B1CB32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HaHaGO_Test_Swift/Pods-HaHaGO_Test_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AE84DDCC0C6E5E3CAADF830 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HaHaGO_Test_Swift/Pods-HaHaGO_Test_Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4234D28820523E78007932A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4234D2C120523FF3007932A3 /* GroupViewController.swift in Sources */,
 				4234D29220523E78007932A3 /* ViewController.swift in Sources */,
+				4234D4552052FD78007932A3 /* MemberView.swift in Sources */,
+				4234D45D20530156007932A3 /* MemberCell.swift in Sources */,
 				4234D29020523E78007932A3 /* AppDelegate.swift in Sources */,
+				4234D2C520525CDA007932A3 /* GroupTableViewCell.swift in Sources */,
+				4234D2C8205261E3007932A3 /* GroupViewModel.swift in Sources */,
+				4234D2CA2052620A007932A3 /* GroupModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,31 +600,67 @@
 		};
 		4234D2B520523E7A007932A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15FA7603EE4D81087312A4A2 /* Pods-HaHaGO_Test_Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G2ZY7Y3JLJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/ABTesting",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/AdMob",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/Analytics",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/Auth",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/Crash",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/Database",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/DynamicLinks",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/Firestore",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/Invites",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/Messaging",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/Performance",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/RemoteConfig",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/Storage",
+				);
 				INFOPLIST_FILE = HaHaGO_Test_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tw.com.iscom.HaHaGO-Test-Swift";
+				OTHER_LDFLAGS = "$(OTHER_LDFLAGS)";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.com.iscom.HaHaGo-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4234D2B620523E7A007932A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB469CB95BF21AC3645CFF4C /* Pods-HaHaGO_Test_Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G2ZY7Y3JLJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/ABTesting",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/AdMob",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/Analytics",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/Auth",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/Crash",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/Database",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/DynamicLinks",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/Firestore",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/Invites",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/Messaging",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/Performance",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/RemoteConfig",
+					"$(PROJECT_DIR)/HaHaGO_Test_Swift/Frameworks/Firebase/Storage",
+				);
 				INFOPLIST_FILE = HaHaGO_Test_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tw.com.iscom.HaHaGO-Test-Swift";
+				OTHER_LDFLAGS = "$(OTHER_LDFLAGS)";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.com.iscom.HaHaGo-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
